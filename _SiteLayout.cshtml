@@ -2,43 +2,65 @@
     var isDoc = Request.FilePath.IndexOf("/Documentation/") != -1;
 }
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="ru-RU" ng-app>
     <head>
         <meta charset="utf-8" />
         <title>@Page.Title</title>
         <link href="@Href("~/Styles/Site.css")" rel="stylesheet" />
-        <link href="http://orchardproject.net/themes/orchardproject.net/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <script>(function(d){d.className="dyn "+d.className.substring(7,d.length);})(document.documentElement);</script> 
+        <link href="http://orchardproject.ru/themes/orchardproject.net/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script>
         <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-20757794-1']);
-        _gaq.push(['_setDomainName', 'orchardproject.net']);
-        _gaq.push(['_trackPageview']);
-        (function () {
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-54782611-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.src = ('https:' == document.location.protocol ?  'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+          })();
         </script>
     </head>
     <body>
-        <header id="HeaderDiv">
-            <div id="branding">
-                <h1><a href="http://orchardproject.net/"><span class="displayText">Orchard Documentation</span></a></h1>
+
+    <div id="wrapper">
+        <div id="branding">
+            <div class="zone zone-branding">
+                <h1 id="branding"><a href="/" class="displayText"></a></h1>
             </div>
-            <nav id="navMain">
-                <ul>
-                    <li><a href="http://orchardproject.net/">Home</a></li>
-                    <li><a href="http://orchardproject.net/download">Download</a></li>
-                    <li class="On"><a href="http://docs.orchardproject.net/">Documentation</a></li>
-                    <li><a href="http://gallery.orchardproject.net/">Gallery</a></li>
-                    <li><a href="http://orchardproject.net/localization">Localization</a></li>
-                    <li><a href="http://orchardproject.net/contribution">Contribute</a></li>
-                    <li><a href="http://orchardproject.net/discussions">Discussions and Help</a></li>
-                    <li><a href="http://orchardproject.net/about">About Us</a></li>
-                </ul>
-            </nav>
-        </header>
+        </div>
+        <div id="navMain" style="clear:both;">
+            <div class="zone zone-navigation">
+                <nav>
+                    <ul class="menu menu-main-menu">
+                        <li class="first">
+                            <a href="http://orchardproject.ru/" class="">Главная</a>
+                        </li>
+                        <li>
+                            <a href="http://orchardproject.ru/downloads" class="">Загрузка</a>
+                        </li>
+                        <li class="On">
+                            <a href="http://docs.orchardproject.ru" class="current ">Документация</a>
+                        </li>
+                        <li>
+                            <a href="http://orchardproject.ru/localization" class="">Переводы</a>
+                        </li>
+                        <li>
+                            <a href="http://gallery.orchardproject.net/" class="external-link">Галерея</a>
+                        </li>
+                        <li>
+                            <a href="http://orchardproject.ru/forum" class="">Форум</a>
+                        </li>
+                        <li>
+                            <a href="http://orchardproject.ru/about-orchard" class="">О проекте</a>
+                        </li>
+                        <li class="last">
+                            <a href="http://orchardproject.ru/contacts" class="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>        
+    </div>
         <div id="ContainerDiv">
             <div id="SidebarDiv">
                 <div id="SidebarContentDiv">
@@ -79,11 +101,11 @@
                 <div id="siteInfo">
                     <div id="siteInfoContent">
                         <ul>
-                        <li><a href="http://orchardproject.net">Home</a></li>
+                        <li><a href="http://orchardproject.ru">Home</a></li>
                         <li><a href="mailto:ofeedbk@microsoft.com">Contact Us</a></li>
-                        <li><a href="http://orchardproject.net/about">About Us</a></li>
-                        <li><a href="http://orchardproject.net/TermsOfUse">Terms Of Use</a></li>
-                        <li><a href="http://orchardproject.net/PrivacyStatement">Privacy Statement</a></li>
+                        <li><a href="http://orchardproject.ru/about">About Us</a></li>
+                        <li><a href="http://orchardproject.ru/TermsOfUse">Terms Of Use</a></li>
+                        <li><a href="http://orchardproject.ru/PrivacyStatement">Privacy Statement</a></li>
                         <li><a href="http://appharbor.com">Hosted and Powered by AppHarbor</a></li>
                         </ul>
                     </div>
