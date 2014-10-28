@@ -241,12 +241,11 @@ div.box {
 #HeaderDiv, #wrapper {
 	margin:0 auto;
 	padding: 0px;
-	height:134px;
-	background:url(images/background_header.jpg) no-repeat top center;
+	background:url(images/background_large.jpg) no-repeat top center;
 }
 
 #branding {
-	width:960px;
+	width:1132px;
 	display:block;
 	height:90px;
 	margin:0em auto;
@@ -269,10 +268,11 @@ div.box {
 	top:-4px;
 	margin-bottom:-4px;
 	z-index:0;
+    display: none;
 }
 
 #navMain{
-	width:960px;
+	width:1132px;
 	display:block;
 	height:44px;
 	margin:0em auto;
@@ -316,9 +316,9 @@ div.box {
 
 /* Contains the SidebarDiv and the MainDiv */
 #ContainerDiv {
-	width:960px;
+	width:1132px;
 	margin:0px auto;
-	background:url(Images/background_content.jpg) top center no-repeat #fff;
+	background:url(Images/background_content_large.jpg) top center no-repeat #fff;
 	position: relative;
 	min-height: 100%;
 	height: 100%;
@@ -402,9 +402,9 @@ p.editlink {font-size: 75%;}
 #FooterDiv {
         margin:0 auto;
         padding:0px;
-        background:url(Images/background_footer.jpg) no-repeat scroll center top;
+        background:url(Images/background_footer_large.jpg) no-repeat scroll center top;
         height:120px;
-        width:960px;
+        width:1132px;
         vertical-align:bottom;
         text-align:center;
 }
@@ -570,9 +570,9 @@ span.signature {
 
 #siteInfoContent {
       margin:0 auto;
-      background:url(images/background_footer.jpg) no-repeat center top;
+      background:url(images/background_footer_large.jpg) no-repeat center top;
       height:120px;
-      width:960px;
+      width:1132px;
       vertical-align:bottom;
       text-align:center;
 }
