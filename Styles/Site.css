@@ -349,13 +349,13 @@ html>body #ContainerDiv {height: auto;}
 /* Contains the contents of a Page */
 #MainDiv {
 	padding:12px 10px 10px 22px;
-	width:680px;
+	width: 850px;
 }
 
 #MainDiv img {
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 580px;
+    max-width: 780px;
 }
 
 #MainFooterDiv {clear:both;}
