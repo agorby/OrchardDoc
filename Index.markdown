@@ -18,15 +18,15 @@
 
 ## О проекте ##
 * [Основные концепции Orchard (англ.)](Documentation/Basic-Orchard-Concepts)
-* [A guide to all the built-in modules and features of Orchard (англ.)](Documentation/Builtin-features)
-* [What's Happening Now? (англ.)](Documentation/feature-roadmap)
-* [Frequently Asked Questions (англ.)](Documentation/frequently-asked-questions)
+* [Гид по встроенным модулям и функциям (англ.)](Documentation/Builtin-features)
+* [План развития Orchard (англ.)](Documentation/feature-roadmap)
+* [Часто задаваемые вопросы (англ.)](Documentation/frequently-asked-questions)
 
-## Tutorial Videos ##
+## Уроки ##
 
-* [Tutorial videos about Orchard (англ.)](Documentation/Orchard-TV)
+* [Уроки Orchard](http://orchardproject.ru/tutorial)
 
-## Documentation ##
+## Документация ##
 
 * **Authoring Websites**
     * [Blogging with LiveWriter (англ.)](Documentation/Blogging-with-LiveWriter)

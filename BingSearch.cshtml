@@ -6,7 +6,7 @@
     var appid = ConfigurationManager.AppSettings["bingAppId"];
     var pageNumber = int.Parse(Request.QueryString["p"] ?? "0");
     var q = Request.QueryString["q"] ?? "";
-    Page.Title = "Orchard Documentation - Search - " + q;
+    Page.Title = "Документация Orchard - Поиск - " + q;
     var requestString = "http://api.bing.net/xml.aspx?"
                         + "AppId=" + appid
                         + "&Query=" + Html.Encode(q) + "%20site:docs.orchardproject.ru"

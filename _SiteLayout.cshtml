@@ -66,13 +66,13 @@
         <div id="ContainerDiv">
             <div id="SidebarDiv">
                 <div id="SidebarContentDiv">
-                    <h2>Search</h2>
+                    <h2>Поиск</h2>
                     <form action="@Href("Search.cshtml")" method="GET">
                         <input class="txtsearchbox" type="text" name="q" value="@Request.QueryString["q"]"/><button type="submit" class="searchButton" title="Search">&raquo;</button>
                     </form>
                     <div>
-                        <h2>Contributors</h2>
-                        <a href="/Contributors" title="Contributors">Contributors</a>
+                        <h2>Авторы</h2>
+                        <a href="/Contributors" title="Contributors">Авторы</a>
                     </div>
                 </div>
                 @if (isDoc) {
