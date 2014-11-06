@@ -1,7 +1,6 @@
 > **Примечание:** Этот сайт с документацией, как и сама система Orchard, является результатом трудов сообщества.
 Если вы хотите внести свой вклад в перевод или создание документации, пожалуйста, изучите
-[соглашения по оформлению](Documentation/Соглашения-по-оформлению)
-и [предложения новых тем](Documentation/Suggestions-for-New-Topics).
+[соглашения по оформлению](Documentation/Соглашения-по-оформлению), [предложения новых тем](Documentation/Suggestions-for-New-Topics) и присоединяйтесь к [проекту на GitHub](https://github.com/KindlySoul/OrchardDoc).
 
 ## Начало работы ##
 * [Установка Orchard (англ.)](Documentation/Installing-Orchard)
