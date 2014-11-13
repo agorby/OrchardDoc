@@ -22,20 +22,19 @@
 
 ### Метод 1: Распаковка zip
 
-Распакуйте загруженный _.zip_-архив в корневую директорию вашего сайта. 
-Extract the downloaded _.zip_ file into the root folder of your website. При запросе Windows о перезаписи существующих файлов и папок согласитесь.
+Распакуйте загруженный _.zip_-архив в корневую директорию вашего сайта. При запросе Windows о перезаписи существующих файлов и папок согласитесь.
 
 Этот метод установки нового языка очень прост, но имеет недостаток: ваш сайт может не содержать некоторых модулей, переводы которых есть в архиве, и в результате будут созданы ненужные директории с файлами перевода. Чтобы избежать этого, можно использовать альтернативный метод, описанный далее.
 
 ### Метод 2: Использование модуля Translation Manager
 
-Моудль [Translation Manager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.TranslationManager), доступный в Галерее Orchard добавляет команды для более гибкого управления файлами переводов.
+Модуль [Translation Manager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.TranslationManager), доступный в Галерее Orchard добавляет команды для более гибкого управления файлами переводов.
 
-После установки модуля, в интерфейсе командной строки Orchard (bin\orchard.exe), введите следующую команду, заменив путь к архиву с _.po_-файлами на свой:
+После установки модуля в интерфейсе командной строки Orchard (bin\orchard.exe) введите следующую команду, заменив путь к архиву с _.po_-файлами на свой:
     
-    install translation c:\temp\fr-FR.zip
+    install translation c:\temp\RU.zip
 
-Это позволит установить файлы локализации только для тех модулей, которые установлены и для которых есть переводы. Если модуля не существует, его переводы скопированы не будут.
+Это позволит скопировать файлы локализации только для тех модулей, которые установлены и для которых есть переводы. Если модуля не существует, его переводы скопированы не будут.
 
 Если вы установите пропущенные модули позднее, для их локализации можно повторно запустить ту же команду.
 
@@ -55,7 +54,7 @@ Extract the downloaded _.zip_ file into the root folder of your website. При 
 
 ![](../Attachments/Перевод-интерфейса/culture_new_default_ru.png)
 
-Если вы установили набор _.po_-файлов соответствующей культуры, интерфейс системы будет переведен на нужный язык. Следующая иллюстрация показывает возможный результат при выборе культуры **ru-RU**.  
+Если вы уже установили набор _.po_-файлов соответствующей культуры, интерфейс системы будет переведен на нужный язык. Следующая иллюстрация показывает возможный результат при выборе культуры **ru-RU**.  
 
 > Примечание: Следует учитывать, что перевод может быть неполным или содержать неточности.
 
@@ -63,17 +62,17 @@ Extract the downloaded _.zip_ file into the root folder of your website. При 
 
 Переключение сайта на указанную культуру не будет иметь эффекта, пока не будут установлены соответствующие файлы перевода. Orchard ищет файлы переводов по следующим путям:
 
-* **Перевод ядра Orchard** _~/Core/App\_Data/Localization/&lt;код-культуры&gt;/orchard.core.po_
-* **Переводы модулей** _~/Modules/&lt;название-модуля&gt;/App\_Data/Localization/&lt;код-культуры&gt;/orchard.module.po_
-* **Перевод темы** _~/Themes/&lt;theme-name&gt;/App\_Data/Localization/&lt;код-культуры&gt;/orchard.theme.po_
-* **Перевод корневого управления Orchard** _~/App\_Data/Localization/&lt;код-культуры&gt;/orchard.root.po_
-* **Перевод тенанта (экземпляра)** _~/App\_Data/Sites/&lt;название тенанта&gt;/Localization/&lt;culture-code&gt;/orchard.po_
+* **Перевод ядра Orchard:** _~/Core/App\_Data/Localization/&lt;код-культуры&gt;/orchard.core.po_
+* **Переводы модулей:** _~/Modules/&lt;название-модуля&gt;/App\_Data/Localization/&lt;код-культуры&gt;/orchard.module.po_
+* **Перевод темы:** _~/Themes/&lt;theme-name&gt;/App\_Data/Localization/&lt;код-культуры&gt;/orchard.theme.po_
+* **Перевод корневого управления Orchard:** _~/App\_Data/Localization/&lt;код-культуры&gt;/orchard.root.po_
+* **Перевод тенанта (экземпляра):** _~/App\_Data/Sites/&lt;название тенанта&gt;/Localization/&lt;culture-code&gt;/orchard.po_
 
 ## Доступные переводы
 
 Вы можете загрузить необходимые _.po_-файлы на странице [http://orchardproject.ru/localization](http://orchardproject.ru/localization).  Переводы создаются сообществом. Если Вы обнаружили ошибку, пожалуйста, сообщите об этом на сайте Crowdin на странице проекта [Orchard CMS](https://crowdin.com/project/orchard-cms) или [Orchard CMS Gallery](https://crowdin.com/project/orchard-cms-gallery). Подробнее про участие в переводе системы можно почитать [тут](http://orchardproject.ru/localization).
 
-## Contributing new translations
+## Создание переводов (не переведено)
 
 ### Working with a plain text editor
 
