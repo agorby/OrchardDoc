@@ -28,9 +28,9 @@
 
 ### Метод 2: Использование модуля Translation Manager
 
-Модуль [Translation Manager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.TranslationManager), доступный в Галерее Orchard добавляет команды для более гибкого управления файлами переводов.
+Функция Translation Manager из модуля [Vandelay Industries ](http://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.Industries), доступного в Галерее Orchard добавляет команды для более гибкого управления файлами переводов.
 
-После установки модуля в интерфейсе командной строки Orchard (bin\orchard.exe) введите следующую команду, заменив путь к архиву с _.po_-файлами на свой:
+После установки модуля в интерфейсе командной строки Orchard (<Папка сайта>\bin\orchard.exe) введите следующую команду, заменив путь к архиву с _.po_-файлами на свой:
     
     install translation c:\temp\RU.zip
 
