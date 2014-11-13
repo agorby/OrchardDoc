@@ -355,7 +355,7 @@ html>body #ContainerDiv {height: auto;}
 #MainDiv img {
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: 780px;
+    max-width: 800px;
 }
 
 #MainFooterDiv {clear:both;}

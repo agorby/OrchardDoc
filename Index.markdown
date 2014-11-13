@@ -28,29 +28,29 @@
 
 ## Документация ##
 
-* **Authoring Websites**
-    * [Blogging with LiveWriter (англ.)](Documentation/Blogging-with-LiveWriter)
-    * [Creating Global-Ready Applications (англ.)](Documentation/Creating-global-ready-applications)
-    * [Search and Indexing (англ.)](Documentation/Search-and-indexing)
-    * [Saving, Scheduling, and Publishing Drafts (англ.)](Documentation/Saving-scheduling-and-publishing-drafts)
-    * [Creating Custom Content Types (англ.)](Documentation/Creating-custom-content-types)
+* **Управление контентом сайта Websites**
+    * [Использование LiveWriter (англ.)](Documentation/Blogging-with-LiveWriter)
+    * [Перевод интерфейса](Documentation/Перевод-интерфейса)
+    * [Поиск и индексирование (англ.)](Documentation/Search-and-indexing)
+    * [Создание, планирование и публикация материалов (англ.)](Documentation/Saving-scheduling-and-publishing-drafts)
+    * [Создание новых типов контента (англ.)](Documentation/Creating-custom-content-types)
 
 
-* **Customizing Websites**
-    * [Previewing and Applying a Theme (англ.)](Documentation/Previewing-and-applying-a-theme)
-    * [Installing Themes (англ.)](Documentation/Installing-themes)
-    * [Customizing Themes (англ.)](Documentation/Customizing-the-default-theme)
+* **Изменение оформления сайта**
+    * [Предпросмотр и применение тем (англ.)](Documentation/Previewing-and-applying-a-theme)
+    * [Установка тем (англ.)](Documentation/Installing-themes)
+    * [Изменение и настройка темы по умолчанию (англ.)](Documentation/Customizing-the-default-theme)
 
 
-* **Using the Orchard Gallery**
-    * [Gallery Overview (англ.)](Documentation/Gallery-overview)
-    * [Installing Modules and Themes from the Gallery (англ.)](Documentation/Installing-modules-and-themes-from-the-gallery)
-    * [Browsing the Gallery Web Site (англ.)](Documentation/Browsing-the-gallery-web-site)
-    * [Contributing a Module or Theme to the Gallery (англ.)](Documentation/Contributing-a-module-or-theme-to-the-gallery)
-    * [Registering Additional Gallery Feeds (англ.)](Documentation/Module-gallery-feeds)
+* **Использование галереи Orchard**
+    * [Обзор галереи (англ.)](Documentation/Gallery-overview)
+    * [Установка модулей и тем из галереи (англ.)](Documentation/Installing-modules-and-themes-from-the-gallery)
+    * [Использование сайта галереи (англ.)](Documentation/Browsing-the-gallery-web-site)
+    * [Добавление модуля в галерею (англ.)](Documentation/Contributing-a-module-or-theme-to-the-gallery)
+    * [Добавление ссылки на сайт галереи (англ.)](Documentation/Module-gallery-feeds)
 
 
-* **Managing Websites**
+* **Управление сайтами**
     * [Enabling and Disabling Features (англ.)](Documentation/Enabling-and-disabling-features)
     * [Using the Command-Line Interface (англ.)](Documentation/Using-the-command-line-interface)
     * [Installing and Upgrading Modules (англ.)](Documentation/Installing-and-upgrading-modules)
