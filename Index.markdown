@@ -3,7 +3,7 @@
 [соглашения по оформлению](Documentation/Соглашения-по-оформлению), [предложения новых тем](Documentation/Suggestions-for-New-Topics) и присоединяйтесь к [проекту на GitHub](https://github.com/KindlySoul/OrchardDoc).
 
 ## Начало работы ##
-* [Установка Orchard (англ.)](Documentation/Installing-Orchard)
+* [Установка Orchard](Documentation/Установка-Orchard)
 * [Установка Orchard вручную из zip-файла (англ.)](Documentation/Manually-installing-Orchard-zip-file)
 * [Работа с Orchard в WebMatrix (англ.)](Documentation/Working-with-Orchard-in-WebMatrix)
 * [Работа с панелью управления (англ.)](Documentation/Getting-around-the-dashboard)
